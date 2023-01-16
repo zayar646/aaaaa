@@ -19,6 +19,7 @@ h1{
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: flex-start;
+    margin-top: 40px;
 }
 .arrowright,.arrowleft{
     position: absolute;
@@ -41,7 +42,7 @@ h1{
 	display: flex;
     overflow: hidden;
     height: 352px;
-    width: 60vw;
+    width: 62vw;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
@@ -49,12 +50,13 @@ h1{
     margin-left: 40px;
 }
 .firstcontainer>section{
-	width: 60vw;
-    height: 90%;
-    margin-left: 25px;
+	height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .firstbigpic{
-    width: 55vw;
+    width: 230px;
     height: 246px;
     border-radius: 40px;
     margin: 10px 35px;
@@ -64,13 +66,13 @@ h1{
     background-position: center;
 }
 .firstbigpic1{
-    background-image: url("../League-of-Introverts/pj photo1/MicrosoftTeams-image (77).png");
+    background-image: url("../League-of-Introverts/pj photo1/tekkatho phone naing.png");
 }
 .firstbigpic2{
-    background-image: url("../League-of-Introverts/pj photo1/MicrosoftTeams-image (76).png");
+    background-image: url("../League-of-Introverts/pj photo1/moemoe.png");
 }
 .firstbigpic3{
-    background-image: url("../League-of-Introverts/pj photo1/MicrosoftTeams-image (75).png");
+    background-image: url("../League-of-Introverts/pj photo1/chitoonyo.png");
 }
 .bigsection>h2,.bigsection>p{
 	margin: 5px;
@@ -124,7 +126,7 @@ h1{
 }
 section>span{
     opacity: 50%;
-    margin-left: 5px;
+    font-size: 12px;
 } 
 @media only screen and (max-width: 1490px) {
     .bigsection2{
